@@ -57,7 +57,7 @@ class expired_bookController extends Controller
 
         
         $expiredbook->delete();
-        return redirect()->route('expired_book')->with('success', 'delete');
+        return redirect()->route('expired_book')->with('success', 'deleted');
     }
      
     }
